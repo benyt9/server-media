@@ -1,0 +1,28 @@
+{
+  "server_name": "blocktopia",
+  "nice_name": "BlockTopia",
+  "direct_ip": "116.202.215.79:25660",
+  "server_wildcards": [
+    "blocktopia.de"
+  ],
+  "supported_languages": [
+     "de"
+  ],
+  "chat": {
+    "message_formats": [
+      "^§[a-f0-9](?<level>\\d+)( \\||§8 \\|) §[a-f0-9](?<sender>[a-zA-Z0-9_]{2,16})§r§7: §f(?<message>.*)$"
+    ]
+  },
+  "discord": {
+    "server_id": 260471731809026048,
+    "rename_to_minecraft_name": false
+  },
+  "brand": {
+     "primary": "#008FE8",
+     "background": "#0A56A5",
+     "text": "#FFFFFF"
+  }, 
+  "yt_trailer": "8asFIRe2HSw",
+  "user_stats": "https://laby.net/@{userName}",
+  "command_delay": 3000
+}
